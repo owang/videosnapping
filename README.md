@@ -1,5 +1,12 @@
 # VideoSnapping
-Personal reimplementation of VideoSnapping: interactive synchronization of multiple videos.  Note that the implementation is missing *many aspects of the paper*, including:
+
+Link to [Paper](https://dl.acm.org/doi/10.1145/2601097.2601208)
+
+Link to [Video](https://www.youtube.com/watch?v=iwT8Hs3rMug)
+
+---
+
+This repo contains a personal reimplementation of VideoSnapping: interactive synchronization of multiple videos.  Note that the implementation is missing *many aspects of the paper*, including:
 
 - Warping constraints.
 - Sub frame rendering.
