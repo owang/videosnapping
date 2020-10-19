@@ -1,6 +1,6 @@
 # VideoSnapping
 
-Link to [Paper](https://dl.acm.org/doi/10.1145/2601097.2601208)
+Link to [Paper PDF](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.650.8437&rep=rep1&type=pdf)
 
 Link to [Video](https://www.youtube.com/watch?v=iwT8Hs3rMug)
 
