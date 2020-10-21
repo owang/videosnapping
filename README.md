@@ -1,5 +1,7 @@
 # VideoSnapping
 
+![Representative Image](web/representative.jpg)
+
 Link to [Paper PDF](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.650.8437&rep=rep1&type=pdf)
 
 Link to [Video](https://www.youtube.com/watch?v=iwT8Hs3rMug)
@@ -31,4 +33,21 @@ Note: If you use this software, please cite the original work:
 }
 ```
 
+---
 
+## Usage
+
+Install requirements:
+```
+pip install -r requirements.txt
+```
+
+Align the included two demo sequences:
+```
+python videosnapping.py --vid1 data/vid1.mp4 --vid2 data/vid2.mp4 --fps 15 --partial-alignment
+```
+
+### Tips
+If you are using `--partial_alignemnt`, and you get really short paths at the corner of the cost matrix, increase the `--min-steps` parameter.
+
+Some sequences have more or fewer SIFT features detected in each frame. If you are getting bad results, try to look at the output path visualization. If you can not clearly see some structure in the cost matrix, try to modify the `--cm-sigma` parameter (for images with more matches (more texture), increase the value).
