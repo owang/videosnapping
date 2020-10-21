@@ -53,4 +53,4 @@ If you are using `--partial_alignemnt`, and you get really short paths at the co
 
 Some sequences have more or fewer SIFT features detected in each frame. If you are getting bad results, try to look at the output path visualization. If you can not clearly see some structure in the cost matrix, try to modify the `--cm-sigma` parameter (for images with more matches (more texture), increase the value).
 
-If it is too slow, reduce the `--fps`, parallelize the SIFT feature matching, or replace it with your choice of fast feature matcher. 
+If it is too slow, reduce the `--fps`, parallelize the SIFT feature matching, or replace it with your choice of fast feature matcher. You may also want to restrict matching to a band near the diagonal if you know for example, that the videos are mostly aligned.
