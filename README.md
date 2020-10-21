@@ -16,7 +16,7 @@ This repo contains a personal reimplementation of VideoSnapping: interactive syn
 - Global time parameterization.
 - Multiple sequences.
 
-In addition, it is also written for the purpose of clarity, and is unoptimized and (very) slow. All code provide here is to be used for research purposes only (please refer see the included license file). For questions regarding commercial use, including licensing rights and IP, you must contact the owner; The Walt Disney Company.
+In addition, it is also written for the purpose of clarity, and is unoptimized and **very slow**. All code provide here is to be used for research purposes only (please refer see the included license file). For questions regarding commercial use, including licensing rights and IP, you must contact the owner; The Walt Disney Company.
 
 Note: If you use this software, please cite the original work:
 
