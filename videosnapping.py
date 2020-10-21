@@ -8,20 +8,14 @@ Please see the README.md before using.
 
 """
 
-import datetime
 import glob
-import json
 import os
 import pickle
-import shlex
 import shutil
 import subprocess
 import sys
 import time
-from concurrent.futures import Executor, Future
-from functools import lru_cache, wraps
 from pathlib import Path
-from threading import Lock
 
 import cv2
 import matplotlib.pyplot as plt
