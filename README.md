@@ -1,6 +1,6 @@
 # VideoSnapping
 
-![Representative Image](web/representative.jpg)
+<img src="web/representative.jpg" width="450">
 
 Link to [Paper PDF](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.650.8437&rep=rep1&type=pdf)
 
